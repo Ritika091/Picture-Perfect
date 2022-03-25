@@ -1,10 +1,6 @@
 
-import Apollo from '../assets/apollo.png'
-import ApolloChar from '../assets/ApolloChar.png'
 import Verified from '../assets/verified.png'
 import Ethereum from '../assets/ethereum.png'
-import SassyChar from '../assets/SassyChar.png'
-import SatisfyingChar from '../assets/SatisfyingChar.png'
 const TopNFT = (props) => {
     return ( 
         <>
