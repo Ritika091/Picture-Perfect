@@ -4,7 +4,8 @@ import Navbar from "../components/Navbar";
 const Explore = () => {
     return ( 
        <>
-       <Navbar/>
+       <Navbar route1 = 'Explore' route2 = 'Rankings' route3 = 'Rewards'/>
+     
        <Footer/>
        </>
      );

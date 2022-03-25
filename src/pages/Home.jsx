@@ -21,10 +21,11 @@ import TopSeller from '../components/TopSellerContent'
 import TopSellers from '../components/TopSellers'
 import Subscribe from '../components/Subscribe'
 
+
 function Home() {
   return (
   <main>
-  <Navbar/>
+  <Navbar route1 = 'Market' route2 = 'Features' route3 = 'Community'/>
   <Header/>
   <div className="NFT_Head">
         <div className='left_head'>
@@ -75,7 +76,7 @@ function Home() {
   <TopSellers/>
   <Subscribe/>
   <Footer/>
-  
+ 
   </main>
   );
 }

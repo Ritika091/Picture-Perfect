@@ -14,6 +14,9 @@
     margin-right: 3rem;
     padding-bottom: 0rem;
 }
+.routes a{
+    text-decoration: none;
+}
 .logo{
     display: flex;
 }
@@ -582,4 +585,95 @@ font-weight: 400;
 font-size: 15.4764px;
 line-height: 27px;
 color: #5C5C5E;
+}
+
+/* NEWPAGE */
+.activities{
+    display: flex;
+    padding-top: 3rem;
+    padding-left: 5rem;
+    padding-bottom: 4rem;
+}
+.activities h2{
+    font-family: 'Rajdhani',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: rgba(0, 0, 0, 0.6);
+
+}
+.activities h3{
+    font-family: 'Rajdhani',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #000000;
+}
+.activities p{
+    font-family: 'Rajdhani',sans-serif;
+font-size: 15px;
+color: #100000;
+line-height: 2rem;
+}
+.activity_container{
+    border: 2.5px solid;
+    border-image-slice: 1 ;
+    border-image-source: linear-gradient(90deg, rgba(0, 0, 0, 0.3) -1.52%, rgba(0, 0, 0, 0.3) 104.35%);
+    height: 7rem;
+    width: 85rem;
+    margin-left: 4rem;
+    display: -webkit-inline-box;
+    margin-top: 2rem;
+}
+.activity_container img,.activity_container h4,.activity_container p{
+    padding-top: 3rem;
+    padding-left: 2rem;
+
+}
+.actimgsale{
+    padding-top: 1.5rem !important;
+    padding-left: 3rem !important;
+}
+.actimglist{
+    padding-top: 1.5rem !important;
+}
+.activity_container span{
+    padding-left: 8rem;
+}
+.actp{
+    padding-left: 10rem !important;
+    padding-top: 1.7rem !important;
+}
+.activity_box{
+    text-align: center;
+}
+.activity_container h4{
+    font-family: 'Rajdhani',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+color: rgba(0, 0, 0, 0.8);
+}
+.activity_container p{
+    font-family: 'Rajdhani',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+color: #000000;
+}
+.activity_container span{
+    font-family: 'Rajdhani';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+color: #000000;
+}
+.load{
+    font-family: 'Rajdhani',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 15rem;
+text-align: center;
+color: #100000;
 }

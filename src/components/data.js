@@ -21,3 +21,14 @@ export const row4 = [
     {image: '/images/Ellipse 277 (10).png ', num: '11', name: 'Kristin Watson', price: '20796', class: 'btnGreen'},
     {image: '/images/Ellipse 277 (11).png ', num: '12', name: 'Kathryn Murphy', price: '4339', class: 'btnRed'},
     ];
+
+export const ranking = [
+        {image: '/images/Ellipse 277.png ' , icon: '/images/bag.png',  type: 'sale', name: 'X Rabbit #3149', price: 'ETH 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimgsale'},
+        {image: '/images/Ellipse 277.png ' , icon: '/images/bag.png',  type: 'sale', name: 'X Rabbit #3149', price: 'ETH 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimgsale'},
+        {image: '/images/Ellipse 277.png ' , icon: '/images/list.png', type: 'listing', name: 'X Rabbit #3149', price: 'ETH 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimglist'},
+        {image: '/images/Ellipse 277.png ' , icon: '/images/list.png', type: 'listing', name: 'X Rabbit #3149', price: 'ETH 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimglist'},
+        {image: '/images/Ellipse 277.png ' , icon: '/images/list.png', type: 'listing', name: 'X Rabbit #3149', price: 'ETH 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimglist'},
+        {image: '/images/Ellipse 277.png ' , icon: '/images/list.png', type: 'listing', name: 'X Rabbit #3149', price: 'ETH 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimglist'},
+        {image: '/images/Ellipse 277.png ' , icon: '/images/list.png', type: 'listing', name: 'X Rabbit #3149', price: 'ETH 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimglist'},
+    ];
+    
