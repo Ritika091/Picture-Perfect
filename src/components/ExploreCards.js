@@ -142,8 +142,9 @@ explore.map(data => (
         </div>
         ))
 }
+
         </div>
-        
+        <p className='load'>Loading more...</p>
         </>
      );
 }
