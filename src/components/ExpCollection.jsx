@@ -10,7 +10,7 @@ const ExpCollection = (props) => {
         <div className="userPic">
         <img src={props.image} alt="" />
         </div>
-        <h1>Jhones Nickey</h1>
+        <h1>{props.name}</h1>
         <div className="tags">
      
         <div className='tag_content'>

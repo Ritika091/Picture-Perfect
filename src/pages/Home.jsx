@@ -62,13 +62,13 @@ function Home() {
         </div>
         <div className="collectionLoop">
         <section>
-  <ExpCollection image = {Jhones} tag = '@jhonartist' follower = '125' following = '256' art = '129'/>
+  <ExpCollection image = {Jhones} tag = '@jhonartist' follower = '125' following = '256' art = '129' name = 'Jhones Nickey'/>
   </section>
   <section>
-  <ExpCollection image = {Cody} tag = '@codyfishe' follower = '356' following = '456' art = '89'/>
+  <ExpCollection image = {Cody} tag = '@codyfishe' follower = '356' following = '456' art = '89' name = 'Cody Fisher'/>
   </section>
   <section>
-  <ExpCollection image = {Jerome} tag = '@jeromebt' follower = '546' following = '789' art = '54'/>
+  <ExpCollection image = {Jerome} tag = '@jeromebt' follower = '546' following = '789' art = '54'  name = 'Jerome Bell'/>
   </section>
  
   </div>

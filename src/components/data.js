@@ -31,4 +31,8 @@ export const ranking = [
         {image: '/images/Ellipse 277.png ' , icon: '/images/list.png', type: 'listing', name: 'X Rabbit #3149', price: 'ETH 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimglist'},
         {image: '/images/Ellipse 277.png ' , icon: '/images/list.png', type: 'listing', name: 'X Rabbit #3149', price: 'ETH 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimglist'},
     ];
-    
+    export const explore = [
+{image: '/images/apollo.png'},
+{image: '/images/sassy.png'},
+{image: '/images/sastisfying.png'}
+    ];
