@@ -1,6 +1,8 @@
 
+
 import Verified from '../assets/verified.png'
 import Ethereum from '../assets/ethereum.png'
+
 const TopNFT = (props) => {
     return ( 
         <>

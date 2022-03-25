@@ -1,5 +1,6 @@
 import HeaderBanner from '../assets/headerbanner.png'
 import BannerExt from '../assets/headerbannerExt.png'
+import { Link } from 'react-router-dom';
 const Header = () => {
     return ( 
         <div className="Header">
@@ -7,7 +8,7 @@ const Header = () => {
       <h1>Discover, collect, and sell Timeless NFTs</h1>
       <p>The world’s first and largest digital marketplace for crypto collectibles and non- fungible tokens (NFTs). </p>
       <div className="headBtn">
-      <button className='exploreBtn'>Explore</button>
+    <Link to = '/explore'> <button className='exploreBtn'>Explore</button></Link> 
       <span> Create NFTs</span>
       </div>
       <div className="stats">
