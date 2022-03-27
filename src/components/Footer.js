@@ -3,6 +3,7 @@ import Img2 from '../assets/ball.png';
 import Img3 from '../assets/twitter.png';
 import Img4 from '../assets/social.png';
 import Logo from '../assets/logo.png'
+import Discord from '../assets/discord.png'
 const Footer = () => {
     return ( 
         <footer>
@@ -21,7 +22,7 @@ const Footer = () => {
                     <img src={Img1} alt="" />
                     <img src={Img2} alt="" />
                     <img src={Img3} alt="" />
-                    <img src={Img4} alt="" />
+                    <img src={Discord} alt="" />
                 </div>
             </div>
             <div className="heading">

@@ -530,6 +530,7 @@ footer{
     padding-top: 6rem;
     margin-left: 4rem;
     margin-right: 6rem;
+    margin-top: 6rem;
 }
 .footer{
     display: flex;
@@ -586,7 +587,7 @@ line-height: 27px;
 color: #2EC5CE;
 }
 .foot_img img{
-    padding: 0 0.5rem;
+    padding: 1.2rem 0.5rem;
 }
 .foot_img{
     margin-left: -0.5rem;
