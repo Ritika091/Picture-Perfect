@@ -19,7 +19,6 @@ import Footer from '../components/Footer';
 import Collections from '../components/Collections'
 import TopSeller from '../components/TopSellerContent'
 import TopSellers from '../components/TopSellers'
-import Subscribe from '../components/Subscribe'
 
 
 function Home() {
@@ -74,7 +73,7 @@ function Home() {
   </div>
   <TopSeller/>
   <TopSellers/>
-  <Subscribe/>
+  
   <Footer/>
  
   </main>

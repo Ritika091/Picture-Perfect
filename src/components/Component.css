@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap');
 .Navbar{
     display: flex;
     font-family: 'Rajdhani', sans-serif;
@@ -482,6 +483,7 @@ margin-bottom: 2rem;
     width: 16rem;
     height: 3rem;
     border: #F4F5F7;
+    margin-top: 1rem;
 }
 ::placeholder{
     font-family: 'Inter', sans-serif;
@@ -493,19 +495,27 @@ padding: 0 1rem;
 color: #474A57;
 }
 .subemail button{
-    width: 8rem;
+    width: 10rem;
     height: 3rem;
     background: #A260F3;
 border: 1px solid #A260F3;
 color: #FFFFFF;
 font-size: 17px;
-margin-left: 1rem;
+margin-top: 1.5rem;
 }
 .subemail{
     padding-top: 1rem;
 }
 
 /* FOOTER */
+.picture_perfect{
+display: flex;
+}
+.footer_icon{
+      margin-left: 1rem;
+    margin-top: -1rem;
+}
+
 footer{
     border-top: 1px solid #000000;
     padding-top: 6rem;
@@ -703,6 +713,7 @@ color: #100000;
 .Explore_head p{
     font-family: 'Rajdhani', sans-serif;
     font-size: 22px;
+    font-weight: 600;
 }
 .explore_eth{
     margin-left: auto;
@@ -768,7 +779,7 @@ color: #100000;
     padding: 0rem 1.5rem;
 
 }
-.filtering{
+/* .filtering{
     display: flex;
 }
 .active_types{
@@ -785,4 +796,316 @@ color: #100000;
     width: 2rem;
     height: 1.5rem;
     margin-left: 2rem;
+} */
+.filter_Head{
+display: flex;
+padding: 4rem 4rem;
+font-family: 'Rajdhani', sans-serif;
 }
+.filter_left{
+    display: flex;
+}
+.filter_left p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 0.4rem;
+}
+.filter_left h2{
+    margin-left: 1.5rem;
+}
+.filter_left img{
+    width: 2rem;
+    height: 1.8rem;
+}
+.filter_right{
+    display: flex;
+    margin-left: auto;
+    /* margin-right: 8rem; */
+}
+.filter_down{
+    padding: 1rem 0.4rem;
+}
+.filter_tiles{
+    margin-left: 2rem;
+    width: 2rem;
+    height: 1.5rem;
+}
+/*ProfileForm*/
+.ProfileForm{
+    padding: 4rem 6rem;
+    display: flex;
+    border: 2px solid;
+    margin: 2rem;
+}
+.userForm{
+    padding: 0rem 4rem;
+}
+.userLogo p{
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #A260F3;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+}
+form{
+    font-family: 'Rajdhani', sans-serif;
+}
+label{
+    font-weight: 600;
+}
+.user_details input{
+    margin-bottom: 1.5rem;
+    border: 1px solid #A260F3;
+   outline: none;
+   width: 25rem;
+   height: 3rem;
+   padding: 0.2rem 1rem;
+   margin-top: 0.5rem;
+   font-family: 'Rajdhani', sans-serif;
+   font-weight: 300;
+   font-size: 16px;
+}
+.user_details input::placeholder{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 300;
+  
+}
+input[type = 'text']::placeholder{
+    padding: 0.1rem;
+}
+.form_head{
+    display: flex;
+    margin-bottom: 4rem;
+    font-family: 'Rajdhani', sans-serif;
+}
+.form_head img{
+    margin-left: auto;
+    background: #A260F3;
+    padding: 0.5rem 1.2rem;
+    border-radius: 2px;
+}
+.Notifications{
+    padding: 0rem 1rem;
+    font-family: 'Rajdhani', sans-serif;
+}
+.notifications_head h2{
+   line-height: 37.98px;
+}
+.notifications_head p{
+    line-height: 18.75px;
+    margin-bottom: 1rem;
+}
+.telegram{
+    display: flex;
+    padding: 1.5rem 0rem;
+    padding-bottom: 0rem;
+}
+.tele_status h2{
+line-height: 25.52px;
+margin-left: 1rem;
+
+}
+.tele_status p{
+    margin-left: 1rem;
+}
+.tele_connect{
+    margin-left: auto;
+}
+.tele_connect h2{
+    font-size: 20px;
+    color: #A260F3;
+    margin-top: 0.5rem;
+}
+#tele_mail{
+    color: #000000;
+}
+#events{
+    margin-top: 2rem;
+}
+.bell{
+    display: flex;
+    padding: 0.5rem 0rem;
+}
+.bell h2{
+    margin-left: 1rem;
+}
+.bell p{
+    margin-left: 1rem;
+}
+.bell_icon img{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+
+.formBtn button{
+  
+    margin-left: 3rem;
+    margin-top: 3rem;
+    font-size: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+.formBtn button:nth-child(1){
+    padding: 1.2rem 1rem;
+    color: #A260F3;
+    border: none;
+}
+.formBtn button:nth-child(2){
+    padding: 1.2rem 4rem;
+    background: #A260F3;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 16px 0px 16px 0px;
+}
+.switched{
+    margin-left: auto;
+}
+
+/*Chicks*/
+.Chick_head{
+border: 2px solid black;
+margin: auto;
+width: 87%;
+padding: 1rem 2rem;
+margin-top: 4rem;
+display: flex;
+padding-bottom: 3rem;
+}
+.Chick_logo{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.handles{
+    margin-top: 0.5rem;
+}
+.handles div{
+    padding: 0.4rem 0rem;
+}
+.about_content p{
+    padding-right: 8rem;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about
+{
+    padding-left: 4rem;
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: 1.5rem;
+    display: block;
+
+}
+.about_name{
+    display: flex;
+}
+.about_name h1{
+    font-size: 40px;
+}
+
+.about_name img{
+    margin-left: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.6rem;
+}
+#more{
+    margin-top: 0.5rem;
+    color: #A260F3;
+    font-weight: 600;
+    font-family: 'Rajdhani', sans-serif;
+}
+.coll_score{
+    display: flex;
+    margin-top: 6rem;
+}
+.coll_score p{
+    font-size: 14px;
+    line-height: 16px;
+}
+.coll_score h2{
+    font-size: 20px;
+}
+.coll_right {
+    padding: 0.5rem 2rem;
+}
+.Score{
+    display: flex;
+    border: 1px solid #A260F3;
+    padding: 0.4rem 2rem;
+}
+.Score img{
+    margin-top: 0.3rem;
+}
+.statistics{
+    display: flex;
+    margin-right: 2rem;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.statistics div{
+    padding: 1rem 1.5rem;
+}
+.statsLeft h1, .statsRight h1{
+ font-size: 40px;
+ line-height: 53px;
+}
+.statsLeft p, .statsRight p{
+    font-size: 17px;
+    line-height: 22px;
+}
+.stats_images img{
+    padding: 0.8rem 1.5rem;
+    background-color: #A260F3;
+    margin-top: 0.6rem;
+    border-radius: 2px;
+
+}
+.statsRight{
+
+    margin-right: 6rem;
+}
+.statsLeft{
+    margin-right: -2rem;
+}
+.statsLeft, .statsRight{
+    margin-bottom: 8rem;
+}
+#rewarded{
+    margin-top: 6rem;
+    margin-bottom: -8rem;
+    font-size: 23px;
+    margin-right: -2rem;
+}
+.rewardImport{
+    padding: 1.2rem 3rem;
+    /* margin-left: -0.7rem; */
+    position: relative;
+    top: 5rem;
+    left: 5rem;
+    font-size: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    background: #A260F3;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.chicks_heading{
+    display: flex;
+    padding: 2rem 4rem;
+    padding-top: 4rem;
+}
+.head_right{
+    display: flex;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.head_right div{
+    padding: 0rem 1rem;
+    cursor: pointer;
+}
+

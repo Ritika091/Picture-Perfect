@@ -2,13 +2,20 @@ import Img1 from '../assets/insta.png';
 import Img2 from '../assets/ball.png';
 import Img3 from '../assets/twitter.png';
 import Img4 from '../assets/social.png';
-
+import Logo from '../assets/logo.png'
 const Footer = () => {
     return ( 
         <footer>
             <div className="footer">
             <div className="heading">
-                <h1 id="footer_cont"> Perfect <br />Picture</h1>
+            <div className='picture_perfect'>
+            <div>
+                <h1 id="footer_cont"> Perfect  <br />Picture </h1>
+                </div>
+                <div className='footer_icon'>
+              <img src={Logo} alt="" />
+              </div>
+              </div>
                 <p>Lorem ipsum dolor amet, <br /> consectetur adipiscing elit. Eget <br /> nisl nunc quam ac sed turpis <br /> volutpat. Cursus sed massa non <br /> nisi, placerat.</p>
                 <div className="foot_img">
                     <img src={Img1} alt="" />
@@ -25,17 +32,6 @@ const Footer = () => {
                     <li>Tutorials</li>
                     <li>Pricing</li>
                     <li>Releases</li>
-                </ul>
-            </div>
-
-            <div className="heading">
-                <h1>Collectibles</h1>
-                <ul>
-                    <li>About</li>
-                    <li>Press</li>
-                    <li>Careers</li>
-                    <li>Contact</li>
-                    <li>Partners</li>
                 </ul>
             </div>
 
@@ -62,14 +58,11 @@ const Footer = () => {
             </div>
 
             <div className="heading"  style={{padding: '0.4rem'}}>
-                <h1>Follow us</h1>
-                <ul>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>Dribbble</li>
-                    <li>Instagram</li>
-                    <li>LinkedIn</li>
-                </ul>
+                <h1 style={{paddingRight:'10rem', fontFamily: "'Orbitron', sans-serif", fontWeight:'900'}}>Subscribe to get latest news</h1>
+                <div className="subemail">
+                <input type="text" placeholder="Your email address" />
+                <button>Subscribe</button>
+            </div>
             </div>
             </div>
 

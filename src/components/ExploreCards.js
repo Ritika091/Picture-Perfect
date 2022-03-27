@@ -1,5 +1,4 @@
 
-import Ethereum from '../assets/ethereum.png'
 import ApolloChar from '../assets/ApolloChar.png'
 import Verified from '../assets/verified.png'
 
@@ -8,6 +7,7 @@ import Filter from '../assets/filter.png'
 import DownArrow from '../assets/downArrow.png'
 import Tiles from '../assets/tileview.png'
 import Tile from '../assets/tile.png'
+import Ape from '../assets/ape.png'
 const ExploreCards = () => {
     return ( 
         <>
@@ -22,22 +22,20 @@ const ExploreCards = () => {
         </div>
         </div>
         </div>
-        <div className="filtering">
-        <div className="activities">
-        <h2>Explore &nbsp; &nbsp;&nbsp;</h2>
-        <h3>Activities &nbsp; &nbsp;&nbsp;</h3>
-        <p>138,075 items listed &nbsp; &nbsp;&nbsp;&nbsp;</p>
+        <div className="filter_Head">
+        <div className="filter_left">
+        <h2> Explore</h2>
+        <h2>Activities</h2>
+        <p>138,075 items listed</p>
         <img src={Filter} alt="" />
-        <h2 style={{    marginLeft: '26rem'}}>Recently Listed</h2>
-        <img src={DownArrow} alt="" id='down'/>
-        <img src={Tiles} alt="" className='tiles'/>
-        <img src={Tile} alt="" className='tiles'/>
-      
-    </div>
-    <div className="active_types">
-   
-    </div>
-    </div>
+        </div>
+       <div className="filter_right">
+       <h2>Recently Listed</h2>
+       <img src={DownArrow} alt="" className='filter_down'/>
+       <img src={Tiles} alt="" className='filter_tiles'/>
+       <img src={Tile} alt="" className='filter_tiles'/>
+       </div>
+        </div>
         <div className="ExploreCards">
         {
 explore.map(data => (
@@ -57,8 +55,8 @@ explore.map(data => (
       </div>
       <div className="explore_eth">
       <div>
-      <img src={Ethereum} alt="" />
-      <span className='ethval'>ETH 9.31</span>
+      <img src={Ape} alt="" />
+      <span className='ethval'>APE 9.31</span>
       </div>
       <div>
       <button>Place Bid</button>
@@ -92,8 +90,8 @@ explore.map(data => (
       </div>
       <div className="explore_eth">
       <div>
-      <img src={Ethereum} alt="" />
-      <span className='ethval'>ETH 9.31</span>
+      <img src={Ape} alt="" />
+      <span className='ethval'>APE 9.31</span>
       </div>
       <div>
       <button>Place Bid</button>
@@ -127,8 +125,8 @@ explore.map(data => (
       </div>
       <div className="explore_eth">
       <div>
-      <img src={Ethereum} alt="" />
-      <span className='ethval'>ETH 9.31</span>
+      <img src={Ape} alt="" />
+      <span className='ethval'>APE 9.31</span>
       </div>
       <div>
       <button>Place Bid</button>

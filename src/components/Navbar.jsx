@@ -28,7 +28,7 @@ const Navbar = (props) => {
         <li>{props.route3}</li>
         </div>
 <div className="connect">
-<img src={User} alt="" />
+<Link to='/profile'><img src={User} alt="" /></Link>
 <button className='conBtn'>Connect Wallet</button>
 </div>
 
