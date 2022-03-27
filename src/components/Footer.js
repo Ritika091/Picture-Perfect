@@ -1,7 +1,7 @@
 import Img1 from '../assets/insta.png';
 import Img2 from '../assets/ball.png';
 import Img3 from '../assets/twitter.png';
-import Img4 from '../assets/social.png';
+// import Img4 from '../assets/social.png';
 import Logo from '../assets/logo.png'
 import Discord from '../assets/discord.png'
 const Footer = () => {
@@ -58,13 +58,15 @@ const Footer = () => {
                 </ul>
             </div>
 
-            <div className="heading"  style={{padding: '0.4rem'}}>
-                <h1 style={{paddingRight:'10rem', fontFamily: "'Orbitron', sans-serif", fontWeight:'900'}}>Subscribe to get latest news</h1>
+            <div className="heading" style={{padding: '0.4rem'}}>
+                <h1 style={{paddingRight:'10rem', fontFamily: "'Orbitron', sans-serif", fontWeight:'900'}}>Subscribe to get <br /> latest news</h1>
                 <div className="subemail">
                 <input type="text" placeholder="Your email address" />
+                <br />
                 <button>Subscribe</button>
             </div>
             </div>
+
             </div>
 
             <div className="footer_last">

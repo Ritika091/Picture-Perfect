@@ -537,6 +537,7 @@ footer{
     border-bottom:1px solid #000000;
     padding-bottom: 5rem;
     justify-content: center;
+    margin-left: -2rem;
 }
 .heading h1{
     font-family: 'Inter', sans-serif;
@@ -1110,7 +1111,9 @@ padding-bottom: 3rem;
 #rewarded{
     margin-top: 6rem;
     margin-bottom: -8rem;
-    font-size: 23px;
+    font-size: 20px;
+    line-height: 38px;
+    font-weight: lighter;
     margin-right: -2rem;
 }
 .rewardImport{
