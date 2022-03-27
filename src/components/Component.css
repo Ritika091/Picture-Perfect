@@ -83,7 +83,16 @@ margin-left: auto;
     font-size: 16px;
     background: #A260F3;
     border: 1px solid #A260F3;
-    border-radius: 16px 0px 16px 0px;
+    clip-path: polygon( 
+        0% 20px, /* top left */ 
+        20px 0%, /* top left */ 
+        calc(100% - 0px) 0%, /* top right */ 
+        100% 20px, /* top right */ 
+        100% calc(100% - 15px), /* bottom right */ 
+        calc(100% - 20px) 100%, /* bottom right */ 
+        0px 100%, /* bottom left */ 
+        0 calc(100% - 0px) /* bottom left */ 
+        );
 }
 .stats{
 padding: 5rem 0rem;
@@ -767,12 +776,22 @@ color: #100000;
     font-family: 'Rajdhani', sans-serif;
 }
 .ImportBtn{
+    clip-path: polygon( 
+        0% 20px, /* top left */ 
+        20px 0%, /* top left */ 
+        calc(100% - 0px) 0%, /* top right */ 
+        100% 20px, /* top right */ 
+        100% calc(100% - 15px), /* bottom right */ 
+        calc(100% - 20px) 100%, /* bottom right */ 
+        0px 100%, /* bottom left */ 
+        0 calc(100% - 0px) /* bottom left */ 
+        );
     padding: 1.2rem 3rem;
     color: #FFFFFF;
     font-size: 16px;
     background: #A260F3;
     border: 1px solid #A260F3;
-    border-radius: 16px 0px 16px 0px;
+  
     margin-top: 1rem;
 }
 .active_types img{
@@ -864,14 +883,17 @@ label{
    font-family: 'Rajdhani', sans-serif;
    font-weight: 300;
    font-size: 16px;
+   background: rgba(162, 96, 243, 0.1);
 }
 .user_details input::placeholder{
     font-family: 'Rajdhani', sans-serif;
     font-weight: 300;
+
   
 }
 input[type = 'text']::placeholder{
     padding: 0.1rem;
+  
 }
 .form_head{
     display: flex;
@@ -951,13 +973,24 @@ margin-left: 1rem;
     padding: 1.2rem 1rem;
     color: #A260F3;
     border: none;
+    background: none;
 }
 .formBtn button:nth-child(2){
     padding: 1.2rem 4rem;
     background: #A260F3;
     color: #FFFFFF;
     border: none;
-    border-radius: 16px 0px 16px 0px;
+    
+    clip-path: polygon( 
+        0% 20px, /* top left */ 
+        20px 0%, /* top left */ 
+        calc(100% - 0px) 0%, /* top right */ 
+        100% 20px, /* top right */ 
+        100% calc(100% - 15px), /* bottom right */ 
+        calc(100% - 20px) 100%, /* bottom right */ 
+        0px 100%, /* bottom left */ 
+        0 calc(100% - 0px) /* bottom left */ 
+        );
 }
 .switched{
     margin-left: auto;
@@ -1034,6 +1067,7 @@ padding-bottom: 3rem;
     display: flex;
     border: 1px solid #A260F3;
     padding: 0.4rem 2rem;
+    background: rgba(162, 96, 243, 0.1);
 }
 .Score img{
     margin-top: 0.3rem;
@@ -1079,6 +1113,16 @@ padding-bottom: 3rem;
     margin-right: -2rem;
 }
 .rewardImport{
+    clip-path: polygon( 
+        0% 20px, /* top left */ 
+        20px 0%, /* top left */ 
+        calc(100% - 0px) 0%, /* top right */ 
+        100% 20px, /* top right */ 
+        100% calc(100% - 15px), /* bottom right */ 
+        calc(100% - 20px) 100%, /* bottom right */ 
+        0px 100%, /* bottom left */ 
+        0 calc(100% - 0px) /* bottom left */ 
+        );
     padding: 1.2rem 3rem;
     /* margin-left: -0.7rem; */
     position: relative;
