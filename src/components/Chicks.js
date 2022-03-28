@@ -16,6 +16,7 @@ import Like from '../assets/Like.png'
 import Tags from '../assets/tags.png'
 import SideArrow from '../assets/sideArrow.png'
 import Chevron from '../assets/Chevron.png'
+import { Link } from "react-router-dom";
 const Chicks = () => {
   return (
     <div className="Chicks">
@@ -135,7 +136,7 @@ const Chicks = () => {
       </div>
       <div className="ExploreCards">
         {explore.map((data) => (
-          <div className="NFT_cards">
+        <Link to='/rankings/Cryptochicks/Rank'>    <div className="NFT_cards">
             <div className="Explore_Images">
               <img src={data.image} alt="" />
             </div>
@@ -155,16 +156,17 @@ const Chicks = () => {
                   <span className="ethval">APE 9.31</span>
                 </div>
                 <div>
-                  <button>Place Bid</button>
+               <button>Place Bid</button>
                 </div>
               </div>
             </div>
           </div>
+          </Link>
         ))}
       </div>
       <div className="ExploreCards">
         {explore.map((data) => (
-          <div className="NFT_cards">
+           <Link to='/rankings/Cryptochicks/Rank'><div className="NFT_cards">
             <div className="Explore_Images">
               <img src={data.image} alt="" />
             </div>
@@ -184,11 +186,12 @@ const Chicks = () => {
                   <span className="ethval">APE 9.31</span>
                 </div>
                 <div>
-                  <button>Place Bid</button>
+                <button>Place Bid</button>
                 </div>
               </div>
             </div>
           </div>
+          </Link> 
         ))}
       </div>
     </div>

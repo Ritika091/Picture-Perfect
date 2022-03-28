@@ -8,6 +8,7 @@ import DownArrow from '../assets/downArrow.png'
 import Tiles from '../assets/tileview.png'
 import Tile from '../assets/tile.png'
 import Ape from '../assets/ape.png'
+import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 const ExploreCards = () => {
     return ( 
         <>
@@ -24,8 +25,8 @@ const ExploreCards = () => {
         </div>
         <div className="filter_Head">
         <div className="filter_left">
-        <h2> Explore</h2>
-        <h2>Activities</h2>
+      <Link to = '/explore'> <h2> Explore</h2></Link> 
+     <Link to = '/explore/activities'><h2 id='ex'>Activities</h2></Link> 
         <p>138,075 items listed</p>
         <img src={Filter} alt="" />
         </div>

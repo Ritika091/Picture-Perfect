@@ -25,7 +25,11 @@ const Navbar = (props) => {
         :
         <li>{props.route2}</li>
     }
+    {props.route3 === 'Rewards'?
+     <Link to='/rewards'>   <li>{props.route3}</li></Link>
+        :
         <li>{props.route3}</li>
+    }
         </div>
 <div className="connect">
 <Link to='/profile'><img src={User} alt="" /></Link>
