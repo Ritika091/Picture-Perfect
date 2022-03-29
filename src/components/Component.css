@@ -1757,8 +1757,11 @@ float: left;
         display: block;
     }
     .topseller_container{
-        width: 23.4rem;
+        width: 22.4rem;
         margin-left: 0.5rem;
+    }
+    .topseller_container button{
+        margin-left: 6rem;
     }
     .top_seller p{
         font-size: 20px;
@@ -1781,7 +1784,7 @@ float: left;
         font-size: 14px;
     }
     .NFT_image img{
-        width: 19.8rem;
+        width: 21rem;
     }
     .left_head{
         text-align: center;
@@ -1799,6 +1802,109 @@ float: left;
     position: relative;
     bottom: -138rem;
     left: 4rem;
+   }
+   .Header_banner{
+       text-align: center;
+   }
+   .Header_banner img:nth-child(1){
+       width: 20rem;
+   }
+   .collections_data{
+       display: block;
+   }
+   .collec_img {
+    padding: 4rem 3.5rem;
+    width: 9rem;
+}
+.collections_img div img:nth-child(2) {
+    position: relative;
+     padding: 0;
+    top: 8rem;
+    width: 10rem;
+    left: 0.5rem;
+}
+.collections_img div img:nth-child(1){
+    width: 12rem;
+    padding-left: 0.5rem;
+}
+.collections_content{
+    padding: 5rem 2.5rem;
+    text-align: center;
+}
+.collections_content button{
+    display: none;
+}
+.collections_content p{
+    margin-top: 2rem;
+    margin-bottom: -10rem;
+}
+.subemail button{
+    margin-top: 1rem;
+    margin-left: 0.6rem;
+    padding: 0rem 1rem;
+    width: 9rem;
+    height: 3rem;
+}
+.subemail input{
+    padding: 0rem 2.5rem;
+    margin-left: -2rem;
+    width: 14rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+.subemail{
+    display: flex;
+}
+.foot_img img {
+    padding: 2.2rem 0.2rem;
+   
+}
+.footer .heading:nth-child(1){
+    display: flex;
+}
+.picture_perfect p{
+    display: none;
+}
+.footer .heading:nth-child(1) {
+    padding: 12rem 0rem;
+    margin-bottom: -25rem;
+}
+.footer{
+    display: block;
+}
+.footer .heading:nth-child(5){
+    position: relative;
+    top: -7rem;
+
+}
+.footer .heading:nth-child(1) p{
+    display: none;
+}
+
+.foot_img{
+    margin-left: 1.5rem;
+    display: flex;
+}
+#subs{
+    padding: 0 !important;
+}
+.footer_last{
+    display: block;
+    margin-left: -3rem;
+
+}
+.footer_last p{
+    width: 20rem;
+}
+.footer .heading:nth-child(2), .footer .heading:nth-child(3), .footer .heading:nth-child(4){
+display: none;
+}
+
+
+
+
+   .Header_banner img:nth-child(2){
+       position: initial;
    }
     .NFT_Head{
         display: block;

@@ -59,7 +59,7 @@ const Footer = () => {
             </div>
 
             <div className="heading" style={{padding: '0.4rem'}}>
-                <h1 style={{paddingRight:'10rem', fontFamily: "'Orbitron', sans-serif", fontWeight:'900'}}>Subscribe to get <br /> latest news</h1>
+                <h1 id = 'subs' style={{paddingRight:'10rem', fontFamily: "'Orbitron', sans-serif", fontWeight:'900'}}>Subscribe to get <br /> latest news</h1>
                 <div className="subemail">
                 <input type="text" placeholder="Your email address" />
                 <br />
