@@ -9,6 +9,7 @@
 a{
     text-decoration: none;
 }
+
 .Navbar{
     display: flex;
     font-family: 'Rajdhani', sans-serif;
@@ -1696,9 +1697,9 @@ float: left;
 
 
 @media (max-width:991px){
-    /* main{
+    main{
         overflow: hidden;
-    } */
+    }
     .Header{
         display: block;
         padding: 0;
@@ -1721,7 +1722,7 @@ float: left;
     }
     .headBtn span {
         font-weight: bold;
-        font-size: 21px;
+        font-size: 16px;
     }
     .stats div{
         padding: 0rem 0rem;
@@ -1763,6 +1764,7 @@ float: left;
     .topseller_container button{
         margin-left: 6rem;
     }
+   
     .top_seller p{
         font-size: 20px;
         padding: 0rem 2rem;
@@ -1917,4 +1919,15 @@ display: none;
         font-size: 12px;
 
     }
+    .routes{
+        display: none;
+    }
+    .connect{
+        display: none;
+    }
+    .Navbar{
+        padding: 1rem 1rem;
+    margin: 0;
+    }
+
 }
