@@ -1797,7 +1797,7 @@ float: left;
         font-size: 12px;
     }
     .NFT_image img{
-        width: 22.5rem;
+        width: 18rem;
     }
     .left_head{
         text-align: center;
@@ -1958,4 +1958,146 @@ display: none;
 .NFT_title p{
     font-weight: 600;
 }
+.crypto_ranking_mid{
+    display: inherit;
+    padding: 35rem 0rem;
+    margin-bottom: -60rem;
+}
+.crypto_ranking_card{
+    width: 23rem;
+    height: 52rem;
+    margin: 2rem 0.5rem;
+}
+.crypto_owned span {
+    padding-left: 2rem;
+}
+.crypto_offer button{
+    
+    padding: 0rem 1.5rem;
+    font-size: 12px;
+    margin-left: 1rem;
+    margin-top: -2rem;
+}
+.crypto_offer {
+    display: flex;
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+.crypto_offer h4{
+    font-size: 14px;
+}
+#cryptop{
+    padding-top: 4rem;
+    padding-left: 1rem;
+}
+.crypto_table {
+    display: flex;
+    padding-top: 4rem;
+    padding-left: 2rem;
+}
+#row2 {
+    text-align: end;
+    padding-left: 1rem;
+}
+.crypto_ranking_image{
+    text-align: center;
+    position: relative;
+    top: -88rem;
+    left: 3rem;
+
+}
+.crypto_pic{
+    position: inherit;
+    width: 22rem;
+    padding: 1rem 1rem;
+}
+.sym img {
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    padding-right: 1rem;
+}
+.sym{
+    width: 24rem;
+    margin: auto;
+    height: 6rem;
+    margin-left: -3rem;
+}
+.cryptonavinner {
+    display: flex;
+    margin: auto;
+    padding: 2rem 2rem;
+}
+.crypto_ranking_nav{
+    display: block;
+    padding-left: 0rem;
+    padding-top: 3rem;
+}
+.crypto_ranking_nav img:nth-child(1){
+    margin-left: 2rem;
+}
+.activities{
+    padding-left: 3rem;
+}
+.Explore_heading div:nth-child(1){
+    margin-left: 1rem;
+}
+.Explore_heading{
+    display: block;
+    padding: 1rem 0rem;
+    width: 87%;
+    margin: auto;
+    margin-top: 4rem;
+}
+.Explore_heading div:nth-child(2){
+    text-align: center;
+}
+.Explore_heading button{
+    padding: 1.2rem 3rem;
+}
+.Explore_heading h1{
+    font-size: 24px;
+    line-height: 1.5;
+}
+.Explore_heading p{
+    font-size: 16px;
+}
+#exphide1,#exphide2{
+    display: none;
+}
+.Explore_Images img{
+    width: 18rem;
+}
+.explore_eth button{
+    padding: 0.55rem 1rem;
+    font-size: 14px;
+}
+.exp_tag{
+    margin-left: 0;
+}
+.ethval{
+    margin-left: 0.5rem;
+    font-size: 13px;
+}
+.Explore_content{
+    width: 83%;
+    padding: 2rem 0.5rem;
+    margin: auto;
+}
+.ExploreCards .NFT_cards {
+    padding: 4rem 0rem;
+}
+.ExploreCards {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+.Explore_head p{
+    font-size: 16px;
+}
+.logo p{
+    padding: 2rem 0.5rem;
+    font-weight: 700;
+    font-size: 16px;
+}
+
 }

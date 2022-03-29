@@ -37,7 +37,7 @@ const ExploreCards = () => {
        <img src={Tile} alt="" className='filter_tiles'/>
        </div>
         </div>
-        <div className="ExploreCards">
+        <div className="ExploreCards" id='exphide1'>
         {
 explore.map(data => (
         <div className="NFT_cards">
@@ -72,7 +72,7 @@ explore.map(data => (
         ))
 }
         </div>
-        <div className="ExploreCards">
+        <div className="ExploreCards" id='exphide2'>
         {
 explore.map(data => (
         <div className="NFT_cards">
