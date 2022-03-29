@@ -1696,16 +1696,36 @@ float: left;
 
 
 @media (max-width:991px){
+    /* main{
+        overflow: hidden;
+    } */
     .Header{
-        display: grid;
+        display: block;
+        padding: 0;
     }
     .Header_content{
-        width: 92%;
-    padding-left: 4rem;
+       
+   padding: 0rem 1rem;
     }
-    .Header_content p{
-        font-size: 33px;
-    padding: 1rem 0rem;
+    .Header_content h1{
+        font-size: 30px;
+    padding: 1rem 0.5rem;
+    line-height: 1.5;
+    }
+    
+    .Header_content p {
+        font-size: 20px;
+        padding: 1rem 2rem;
+        margin-left: -1.5rem;
+        line-height: 30px;
+    }
+    .headBtn span {
+        font-weight: bold;
+        font-size: 21px;
+    }
+    .stats div{
+        padding: 0rem 0rem;
+        border: none;
     }
     .Ecosystem {
         width: max-content;
