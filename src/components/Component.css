@@ -1692,3 +1692,95 @@ font-size: 17px;
 color: #000000;
 float: left;
 }
+
+
+
+@media (max-width:991px){
+    .Header{
+        display: grid;
+    }
+    .Header_content{
+        width: 92%;
+    padding-left: 4rem;
+    }
+    .Header_content p{
+        font-size: 33px;
+    padding: 1rem 0rem;
+    }
+    .Ecosystem {
+        width: max-content;
+    padding: 0 2rem;
+    }
+    .Ecosystem img{
+        margin-top: 2rem;
+        width: 17rem;
+    }
+    .Ecosystem h1{
+        font-size: 25px;
+    }
+    .collectionLoop{
+        margin-left: -1.5rem;
+        display: block;
+        justify-content: center;
+    }
+    .ExpCol{
+        width: 21.5rem;
+
+    }
+    .collectionLoop section{
+        padding: 3rem 2.3rem;
+    }
+    .exp_container div:nth-child(1) img{
+        width: -webkit-fill-available;
+    }
+    .topseller_col{
+        display: block;
+    }
+    .topseller_container{
+        width: 23.4rem;
+        margin-left: 0.5rem;
+    }
+    .top_seller p{
+        font-size: 20px;
+        padding: 0rem 2rem;
+    }
+    .auc_dur h1{
+        font-size: 20px;
+    }
+    .auc_dur p{
+        font-size: 10px;
+    }
+    .NFT_content{
+        width: 100%;
+        
+    }
+    .NFTLoop{
+        display: block;
+    }
+    .eth span{
+        font-size: 14px;
+    }
+    .NFT_image img{
+        width: 19.8rem;
+    }
+    .left_head{
+        text-align: center;
+    }
+   .right_head{
+    position: relative;
+    bottom: -115rem;
+    left: 4rem;
+
+   }
+    .NFT_Head{
+        display: block;
+        font-weight: bolder;
+    }
+    .bidBtn{
+        padding: 0.5rem 1rem;
+        margin-left: 2rem;
+        margin-top: 5rem;
+        font-size: 12px;
+
+    }
+}
