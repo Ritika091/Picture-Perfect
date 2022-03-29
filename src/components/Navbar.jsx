@@ -2,6 +2,7 @@ import Logo from '../assets/logo.png'
 import './Component.css'
 import User from '../assets/user.png'
 import { Link } from 'react-router-dom';
+import Ham from '../assets/ham.png'
 const Navbar = (props) => {
     return (
         <>
@@ -34,8 +35,9 @@ const Navbar = (props) => {
 <div className="connect">
 <Link to='/profile'><img src={User} alt="" /></Link>
 <button className='conBtn'>Connect Wallet</button>
-</div>
 
+</div>
+<img src={Ham} alt=""  className='ham'/>
         </div>
       
        </>

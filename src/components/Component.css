@@ -1694,12 +1694,23 @@ color: #000000;
 float: left;
 }
 
-
+.ham{
+    display: none;
+}
 
 @media (max-width:991px){
     main{
         overflow: hidden;
     }
+    .ham{
+        display: block !important;
+        width: 2rem;
+        height: 1.5rem;
+        margin: auto;
+    }
+.collections h1{
+    font-size: 25px;
+}
     .Header{
         display: block;
         padding: 0;
@@ -1745,7 +1756,7 @@ float: left;
         justify-content: center;
     }
     .ExpCol{
-        width: 21.5rem;
+        width: 22.7rem;
 
     }
     .collectionLoop section{
@@ -1758,7 +1769,7 @@ float: left;
         display: block;
     }
     .topseller_container{
-        width: 22.4rem;
+        width: 22.9rem;
         margin-left: 0.5rem;
     }
     .topseller_container button{
@@ -1786,7 +1797,7 @@ float: left;
         font-size: 14px;
     }
     .NFT_image img{
-        width: 21rem;
+        width: 22.5rem;
     }
     .left_head{
         text-align: center;
@@ -1929,5 +1940,13 @@ display: none;
         padding: 1rem 1rem;
     margin: 0;
     }
-
+    .TopNFT {
+        padding: 1rem 1rem;
+    }
+    .NFT_content{
+        padding: 2rem 0rem;
+    }
+.NFT_title p{
+    font-weight: 600;
+}
 }
