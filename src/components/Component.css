@@ -1868,6 +1868,12 @@ float: left;
 .subemail{
     display: flex;
 }
+footer{
+    padding-left: 4rem;
+    padding-right: 6rem;
+    margin-right: 0;
+    margin-left: 0;
+}
 .foot_img img {
     padding: 2.2rem 0.2rem;
    
@@ -1879,15 +1885,18 @@ float: left;
     display: none;
 }
 .footer .heading:nth-child(1) {
-    padding: 12rem 0rem;
+    padding: 12rem 2rem;
     margin-bottom: -25rem;
 }
 .footer{
     display: block;
+    margin-left: -4rem;
+    margin-right: -6rem
 }
 .footer .heading:nth-child(5){
     position: relative;
     top: -7rem;
+    margin-left: 2rem;
 
 }
 .footer .heading:nth-child(1) p{
