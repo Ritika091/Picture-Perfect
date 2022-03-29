@@ -50,7 +50,7 @@ function Home() {
         <div className='left_head'>
         <p>Explore Collections</p>
         </div>
-        <div className='right_head'>
+        <div className='right_head' id='viewall'>
         <div>
         <p> View all</p>
         </div>

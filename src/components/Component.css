@@ -1772,6 +1772,14 @@ float: left;
     left: 4rem;
 
    }
+   .tags img{
+       margin-left: -7.7rem;
+   }
+   #viewall{
+    position: relative;
+    bottom: -138rem;
+    left: 4rem;
+   }
     .NFT_Head{
         display: block;
         font-weight: bolder;
