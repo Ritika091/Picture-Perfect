@@ -1702,11 +1702,17 @@ float: left;
     main{
         overflow: hidden;
     }
+    .logo img{
+        width: 4rem;
+    }
     .ham{
         display: block !important;
-        width: 2rem;
-        height: 1.5rem;
-        margin: auto;
+        width: 1.4rem;
+        height: 1.2rem;
+        /* margin: auto; */
+        margin-left: auto;
+        margin-top: 2rem;
+        margin-right: 1rem;
     }
 .collections h1{
     font-size: 25px;
@@ -1787,7 +1793,7 @@ float: left;
         font-size: 10px;
     }
     .NFT_content{
-        width: 98%;
+        width: 94%;
         
     }
     .NFTLoop{
@@ -2079,7 +2085,7 @@ display: none;
     font-size: 13px;
 }
 .Explore_content{
-    width: 83%;
+    width: 72%;
     padding: 2rem 0.5rem;
     margin: auto;
 }
@@ -2099,5 +2105,107 @@ display: none;
     font-weight: 700;
     font-size: 16px;
 }
-
+.ProfileForm{
+    padding: 4rem 0;
+    display: block;
+}
+.userLogo{
+    text-align: center;
+}
+.form_head{
+    display: block;
+    text-align: center;
+}
+.userForm{
+    padding: 0rem 2rem;
+}
+.form_head img{
+    margin-left: 1rem;
+}
+/* .form_head img:nth-child(2){
+    padding-top: 0.65rem;
+} */
+#twi{
+    padding-top: 0.65rem;
+}
+.user_details input{
+     width: -webkit-fill-available;
+}
+#tel{
+    display: none;
+}
+.tele_connect h2{
+    font-size: 15px;
+}
+.filter_Head{
+    padding: 4rem 0rem;
+    display: block ;
+}
+.filter_left img {
+    width: 1.5rem;
+    height: 1.4rem;
+    position: relative;
+    left: -18rem;
+    top: 3rem;
+}
+.filter_left p{
+    position: relative;
+    left: -21rem;
+    top: 3rem;
+ 
+    margin: 0;
+    padding: 0;
+    min-width: 9rem;
+}
+.filter_right{
+    margin-top: 5rem;
+    justify-content: center;    
+    margin-left: 0;
+    margin-right: 0;
+}
+.filter_tiles{
+    display: none;
+}
+/*Ritika*/
+/* .filter_Head{
+    display: block;
+}
+.filter_left p{
+    margin-left: -11rem;
+    margin-right: 1rem;
+    padding-top: 3.4rem;
+}
+.filter_left img{
+    padding-top: 3.5rem;
+}
+.filter_right{
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+.filter_tiles{
+    display: none;
+} */
+.res_routes {
+    list-style: none;
+    margin-top: 6rem;
+    position: relative;
+    left: -10rem;
+    margin-bottom: 4rem;
+  
+}
+.res_routes li{
+    padding: 0.5rem 0rem;
+    color: black;
+}
+.res_connect{
+    margin-top: auto;
+    position: relative;
+    left: -13.5rem;
+    top: 0.5rem;
+}
+.conBtn{
+    padding: 0.6rem 0.2rem;
+    background: none;
+    width: 7rem;
+}
 }

@@ -116,7 +116,7 @@ const ProfileForm = () => {
         <div className="form_head">
         <h1>0xA470...aF9C</h1>
         <img src={Copy} alt="" />
-        <img src={TwitterIcon} alt="" />
+        <img src={TwitterIcon} alt=""  id='twi'/>
         </div>
         <form>
         <label>USERNAME</label>
@@ -155,7 +155,7 @@ const ProfileForm = () => {
         <h2>Notification Methods</h2>
         <p>Select your desired ways to receive real-time notification for your sales.</p>
         </div>
-        <div className="telegram">
+        <div className="telegram" id='tel'>
         <div>
         <img src={Telegram} alt="" />
         </div>
