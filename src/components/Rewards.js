@@ -24,7 +24,7 @@ const Rewards = () => {
                        <div className="box_content">
                        <h4>NFT Listing</h4>
                        <p className="boxp">Up to 43k APE</p>
-                       <p>By listing NFTs on PP market, you earn NFT Listing reward in APE tokens. Snapshots are taken at 00:00 UTC daily. Rewards are calculated based on the latest snapshot, and the distribution takes another 12~18 hours. Read the docs for more details.</p>
+                       <p className="boxp2">By listing NFTs on PP market, you earn NFT Listing reward in APE tokens. Snapshots are taken at 00:00 UTC daily. Rewards are calculated based on the latest snapshot, and the distribution takes another 12~18 hours. Read the docs for more details.</p>
                        </div>
                     </div>
 
@@ -66,7 +66,7 @@ const Rewards = () => {
                     <div className="box_content">
                        <h4 id="stakeape"> APE Staking</h4>
                        <p className="boxp">86% APY</p>
-                       <p>You earn market fee rewards in APE tokens. 100% of the market fees are allocated to the APE staking pool, and 20% of the total APE supply will be rewarded within 720 days. Read the docs for more details.</p>
+                       <p className="boxp2">You earn market fee rewards in APE tokens. 100% of the market fees are allocated to the APE staking pool, and 20% of the total APE supply will be rewarded within 720 days. Read the docs for more details.</p>
                        </div>
                     </div>
 

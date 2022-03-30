@@ -1040,7 +1040,9 @@ margin-left: 1rem;
 .switched{
     margin-left: auto;
 }
-
+.Pro_Head{
+    display: none;
+}
 /*Chicks*/
 .Chick_head{
 border: 2px solid black;
@@ -1705,7 +1707,7 @@ float: left;
     .logo img{
         width: 4rem;
     }
-    .ham{
+    .ham,.ham2{
         display: block !important;
         width: 1.4rem;
         height: 1.2rem;
@@ -1713,6 +1715,10 @@ float: left;
         margin-left: auto;
         margin-top: 2rem;
         margin-right: 1rem;
+    }
+    .ham2 {
+        position: relative;
+        left: 10.3rem;
     }
 .collections h1{
     font-size: 25px;
@@ -2115,6 +2121,7 @@ display: none;
 .form_head{
     display: block;
     text-align: center;
+    margin-top: 4rem;
 }
 .userForm{
     padding: 0rem 2rem;
@@ -2208,4 +2215,191 @@ display: none;
     background: none;
     width: 7rem;
 }
+#ranking{
+    display: none;
+}
+.userLogo {
+    text-align: center;
+    display: flex;
+    padding: 0rem 1rem;
+    justify-content: center;
+}
+.userLogo p{
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+.Pro_Head{
+        display: flex;
+align-items: baseline;
+padding: 1rem 1rem;
+font-family: 'Rajdhani', sans-serif;
+    }
+    .Pro_Head img{
+        width: 0.5rem;
+        height: 0.5rem;
+        margin-left: 0.5rem;
+    }
+    .about_name h1 {
+        font-size: 23px;
+    }
+    .about_name img {
+        margin-left: 0.5rem;
+        width: 2rem;
+        height: 2rem;
+        margin-top: -0.2rem;
+    }
+    .Chick_logo{
+        text-align: initial;
+    }
+    #chi{
+        width: 5rem;
+    }
+    .Chick_head{
+        display: block;
+    }
+    .handles {
+        margin-top: 0.5rem;
+    }
+    
+    .about_content p {
+        padding-right: 2rem;
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .about{
+        margin-top: -13.5rem;
+        padding-left: 6rem;
+    }   
+
+    .filter_Head{
+        display: block;
+    }
+    .filter_left p{
+        margin-left: -11rem;
+        margin-right: 1rem;
+        padding-top: 3.4rem;
+    }
+    .filter_left img{
+        padding-top: 3.5rem;
+    }
+    .filter_right{
+        padding-left: 2rem;
+        padding-top: 2rem;
+    }
+    .filter_tiles{
+        display: none;
+    }
+    
+    .activities{
+        display: block;
+    }
+    .activities h3{
+        padding-left: 7rem;
+        margin-top: -2rem;
+    }
+    .activities p{
+        padding: 1rem 2rem;
+    }
+    .activities span img{
+        position: relative;
+        top: -3rem;
+        left: 10rem;
+    }
+    .cross{
+        position: relative;
+        top: 3rem;
+        left: -1rem;
+    }
+    .activities_btn{
+        margin-left: -2rem;
+    }
+    .rewards_content{
+        display: block;
+        padding-left: 1rem;
+        padding-top: 2rem;
+    }
+    .rewards{
+        margin-left: -10rem;
+    }
+    .rewards_heading{
+        display: block;
+    }
+    .rewards_heading span{
+        position: relative;
+        top: 4rem;
+        margin-left: -4rem;
+        left: -1rem;
+    }
+    .rewards_heading h1{
+        font-size: 28px;
+    }
+    .rewards p{
+        font-size: 20px;
+        margin-top: -1rem;
+    }
+    .rewards_section input{
+        width: 21rem;
+    }
+    .reward_border{
+        width: 21rem;
+        height: 12rem;
+    }
+    .rewards_section button{
+        margin-left: 5.7rem;
+        margin-top: 2rem;
+    }
+    .rewards_table_row2 {
+        padding-left: 5rem;
+    }
+    .rewards_container{
+        width: 21.5rem;
+        height: 6rem;
+    }
+    .rewimg{
+        width: 3.5rem;
+        padding-left: 0.5rem !important;
+    }
+    .rewards_container p{
+        font-size: 15px;
+    }
+    #rewards_name{
+        padding-left: 0.5rem !important;
+    }
+    #rewards_sec h4{
+         position: relative;
+        top: 1rem;
+        left: -2rem; 
+    }
+    .unstakeh4{
+        left: 4rem !important;
+    }
+    .listclass{
+        margin-left: -5.5rem;
+    }
+    .rewards_container img{
+        padding-left: 1rem;
+    }
+    .rewards_container h4{
+        font-size: 18px;
+    }
+    .reward_border {
+        width: 21rem;
+        height: 17rem;
+    }
+    .box_content h4{
+        padding: 3rem 2rem !important;
+    }
+    .boxp{
+        margin-left: 1rem;
+    }
+    .boxp2{
+        position: relative;
+    top: 5rem;
+    left: -6rem;
+    width: 17rem;
+    }
+    #stakeape{
+        left: -8rem !important;
+    }
+
 }

@@ -39,7 +39,7 @@ const Chicks = () => {
       <div className="Chick_head">
         <div className="Chick_logo">
           <div>
-            <img src={Chick} alt="" />
+            <img src={Chick} alt="" id="chi"/>
           </div>
           <div className="handles">
             <div>

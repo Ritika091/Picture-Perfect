@@ -59,9 +59,9 @@
     
     export const rewards = [
             {image: '/images/Ellipse 277.png ' , type: 'LISTING', name: 'Azuki #3149', price: 'APE 90.31' ,class:'listclass'},
-            {image: '/images/Ellipse 277.png ' , type: 'SELLING', name: 'Crypro.Chick #3149', price: 'APE 9.31', class: 'sellclass'},
-            {image: '/images/Ellipse 277.png ' , type: 'BUYING', name: 'Bored Ape #3149', price: 'APE 102.31', class: 'buyclass'},
-            {image: '/images/Ellipse 277.png ' , type: 'BUYING', name: 'Bored Ape #3149', price: 'APE 551.37', class: 'buyclass'},
+            {image: '/images/Ellipse 277.png ' , type: 'SELLING', name: 'Azuki #3149', price: 'APE 90.31', class:'listclass'},
+            {image: '/images/Ellipse 277.png ' , type: 'BUYING', name: 'Azuki #3149',  price: 'APE 90.31', class:'listclass'},
+            {image: '/images/Ellipse 277.png ' , type: 'BUYING', name: 'Azuki #3149',  price: 'APE 90.31', class:'listclass'},
             
         ];
     

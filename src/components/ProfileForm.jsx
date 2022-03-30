@@ -107,7 +107,16 @@ const ProfileForm = () => {
 
     return (
       <>
+     
         <div className="ProfileForm">
+        <div className="Pro_Head">
+          <div>
+ <h1>Edit Your Profile</h1>
+ </div>
+ <div>
+ <img src={DownArrow} alt="" />
+ </div>
+      </div>
         <div className="userLogo">
         <img src={ProfilePic} alt="" />
         <p>Change Picture</p>

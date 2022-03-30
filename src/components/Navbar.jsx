@@ -4,7 +4,7 @@ import User from '../assets/user.png'
 import { Link } from 'react-router-dom';
 import Ham from '../assets/ham.png'
 import { useState } from 'react';
-import Cross from '../assets/cross.png'
+
 const Navbar = (props) => {
     const [drop, setDrop] = useState(false);
     return (
@@ -40,10 +40,14 @@ const Navbar = (props) => {
 <button className='conBtn'>Connect Wallet</button>
 
 </div>
-<img src={Ham} alt=""  className='ham' onClick={() => setDrop(!drop)}/>
-{
-    drop && (
-        <>
+{drop === false?
+    <img src={Ham} alt=""  className='ham' onClick={() => setDrop(!drop)}/>
+    :
+    <>
+<img src={Ham} alt=""  className='ham2' onClick={() => setDrop(!drop)}/>
+
+   
+       
                 <div className="res_routes">
             {props.route1 === 'Market'?
       <Link to='/explore'> <li>{props.route1}</li></Link> 
@@ -67,7 +71,7 @@ const Navbar = (props) => {
 
 </div>
         </>
-    )
+    
 }
         </div>
       
