@@ -1699,7 +1699,48 @@ float: left;
 .ham{
     display: none;
 }
+.heading{
+    display: flex;
+}
 
+.heading{
+    padding: 0px 1rem;
+    padding-left: 4rem;
+    display: flex;
+    margin-left: auto;
+}
+.heading div:nth-child(1) {
+    margin-right: auto;
+    margin-top: 1rem;
+}
+.foot_img {
+    margin-left: -0.5rem;
+    margin-top: -1rem;
+}
+.foot_img img{
+    padding: 4.2rem 1rem;
+}
+#subs{
+    
+    margin-top: 2rem;
+    margin-right: 1rem;
+padding: 0 !important;
+}
+.heading{
+    padding: 0 5rem;
+}
+.subemail{
+    display: flex;
+}
+.footer_icon{
+    margin-left: 1rem;
+    margin-top: 0rem;
+}
+.subemail button{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 7rem;
+}
 @media (max-width:991px){
     main{
         overflow: hidden;
@@ -1718,7 +1759,7 @@ float: left;
     }
     .ham2 {
         position: relative;
-        left: 10.3rem;
+        left: 9rem;
     }
 .collections h1{
     font-size: 25px;
@@ -1905,7 +1946,7 @@ footer{
     margin-left: -4rem;
     margin-right: -6rem
 }
-.footer .heading:nth-child(5){
+.footer .heading:nth-child(2){
     position: relative;
     top: -7rem;
     margin-left: 2rem;
@@ -1930,9 +1971,7 @@ footer{
 .footer_last p{
     width: 20rem;
 }
-.footer .heading:nth-child(2), .footer .heading:nth-child(3), .footer .heading:nth-child(4){
-display: none;
-}
+
 
 
 
@@ -2110,6 +2149,7 @@ display: none;
     padding: 2rem 0.5rem;
     font-weight: 700;
     font-size: 16px;
+    width: max-content;
 }
 .ProfileForm{
     padding: 4rem 0;
@@ -2117,6 +2157,17 @@ display: none;
 }
 .userLogo{
     text-align: center;
+}
+.filter_left{
+    justify-content: center;
+}
+#itemsList{
+    position: relative;
+    left: -2rem;
+}
+#fil{
+    position: relative;
+    left: -1rem;
 }
 .form_head{
     display: block;
@@ -2196,7 +2247,7 @@ display: none;
     list-style: none;
     margin-top: 6rem;
     position: relative;
-    left: -10rem;
+    left: -13rem;
     margin-bottom: 4rem;
   
 }
@@ -2207,7 +2258,7 @@ display: none;
 .res_connect{
     margin-top: auto;
     position: relative;
-    left: -13.5rem;
+    left: -16.5rem;
     top: 0.5rem;
 }
 .conBtn{
@@ -2401,5 +2452,80 @@ font-family: 'Rajdhani', sans-serif;
     #stakeape{
         left: -8rem !important;
     }
-
+.stats_images{
+    position: relative;
+    margin-top: -18rem;
+    margin-left: -25rem;
+    display: flex;
+}
+.stats_images img{
+    
+    padding: 0.5rem 1rem;
+}
+#tagIcon{
+    padding: 0.4rem 1rem;
+}
+.statistics div {
+    padding: 1rem 0.2rem;
+}
+.coll_score {
+    display: block;
+    margin-top: 10rem;
+    position: relative;
+    top: 26rem;
+    left: -4rem;
+}
+.rewardImport{
+    top: 22rem;
+    left: -6rem;
+}
+#rewarded{
+    margin-top: 14rem;
+    margin-bottom: -1rem;
+}
+.Chick_head{
+    width: 76%;
+    padding: 1rem 2rem;
+}
+.statistics div{
+    padding: 1rem 1rem;
+}
+.coll_right p{
+    width: max-content;
+    margin-left: -4rem;
+    margin-top: 1rem;
+}
+.coll_right h2{
+    margin-left: 2rem;
+}
+.chicks_heading{
+    display: none;
+}
+.Explore_Images{
+    text-align: center;
+}
+#subs{
+    text-align: center;
+}
+.footer .heading:nth-child(2){
+    padding: 0.4rem;
+    display: block;
+    position: relative;
+    top: -7rem;
+}
+.subemail input{
+    padding: 0rem 2.5rem;
+    margin-left: -2rem;
+    width: 14rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+.foot_img img {
+    padding: 2.9rem 0.5rem;
+}
+.footer .heading:nth-child(1) {
+    padding: 12rem 2rem;
+    margin-bottom: -25rem;
+    display: flex;
+}
 }

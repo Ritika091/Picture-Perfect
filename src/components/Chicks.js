@@ -114,8 +114,12 @@ const Chicks = () => {
         </div>
          
         <div className="stats_images">
+        <div>
         <img src={Like} alt="" />
-        <img src={Tags} alt="" />
+        </div>
+        <div>
+        <img src={Tags} alt="" id="tagIcon"/>
+        </div>
         </div>
         </div>
         </div>
@@ -124,8 +128,8 @@ const Chicks = () => {
         <div className="filter_left">
           <h2> Explore</h2>
           <h2>Activities</h2>
-          <p>138,075 items listed</p>
-          <img src={Filter} alt="" />
+          <p id="itemsList">138,075 items listed</p>
+          <img src={Filter} alt="" id="fil"/>
         </div>
         <div className="filter_right">
           <h2>Recently Listed</h2>
