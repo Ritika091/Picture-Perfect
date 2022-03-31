@@ -2203,12 +2203,14 @@ footer{
     width: 1.5rem;
     height: 1.4rem;
     position: relative;
-    left: -18rem;
+    /* left: -18rem; */
+    left: -1rem;
     top: 3rem;
 }
 .filter_left p{
     position: relative;
-    left: -21rem;
+    /* left: -21rem; */
+    left: 0rem;
     top: 3rem;
  
     margin: 0;
