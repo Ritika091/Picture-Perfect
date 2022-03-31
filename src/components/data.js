@@ -30,23 +30,23 @@
         ];
     
     export const activity = [
-            {image: '/images/Ellipse 277.png ' , icon: '/images/bag.png',  type: 'sale', name: 'X Rabbit #3149', price: 'APE 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimgsale'},
-            {image: '/images/Ellipse 277.png ' , icon: '/images/bag.png',  type: 'sale', name: 'X Rabbit #3149', price: 'APE 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimgsale'},
-            {image: '/images/Ellipse 277.png ' , icon: '/images/list.png', type: 'listing', name: 'X Rabbit #3149', price: 'APE 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimglist'},
-            {image: '/images/Ellipse 277.png ' , icon: '/images/list.png', type: 'listing', name: 'X Rabbit #3149', price: 'APE 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimglist'},
-            {image: '/images/Ellipse 277.png ' , icon: '/images/list.png', type: 'listing', name: 'X Rabbit #3149', price: 'APE 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimglist'},
-            {image: '/images/Ellipse 277.png ' , icon: '/images/list.png', type: 'listing', name: 'X Rabbit #3149', price: 'APE 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimglist'},
-            {image: '/images/Ellipse 277.png ' , icon: '/images/list.png', type: 'listing', name: 'X Rabbit #3149', price: 'APE 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimglist'},
+            {image: '/images/Ellipse 277.png ' , icon: '/images/bag.png',  type: 'sale', name: 'X Rabbit #3149', price: 'APE 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimgsale', more: 'more1', setmore: 'setMore1'},
+            {image: '/images/Ellipse 277.png ' , icon: '/images/bag.png',  type: 'sale', name: 'X Rabbit #3149', price: 'APE 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimgsale',more: 'more2', setmore: 'setMore2'},
+            {image: '/images/Ellipse 277.png ' , icon: '/images/list.png', type: 'listing', name: 'X Rabbit #3149', price: 'APE 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimglist',more: 'more3', setmore: 'setMore3'},
+            {image: '/images/Ellipse 277.png ' , icon: '/images/list.png', type: 'listing', name: 'X Rabbit #3149', price: 'APE 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimglist',more: 'more4', setmore: 'setMore4'},
+            {image: '/images/Ellipse 277.png ' , icon: '/images/list.png', type: 'listing', name: 'X Rabbit #3149', price: 'APE 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimglist',more: 'more5', setmore: 'setMore5'},
+            {image: '/images/Ellipse 277.png ' , icon: '/images/list.png', type: 'listing', name: 'X Rabbit #3149', price: 'APE 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimglist',more: 'more6', setmore: 'setMore6'},
+            {image: '/images/Ellipse 277.png ' , icon: '/images/list.png', type: 'listing', name: 'X Rabbit #3149', price: 'APE 9.31', from: '0x60cC...1376', time: '28 seconds ago', class: 'actimglist',more: 'more7', setmore: 'setMore7'},
         ];
     
     export const ranking = [
             {image: '/images/Ellipse 277.png ' , num: '1',  name: 'Azuki #3149', volume: 'APE 9.31', h:'+111.48%', d:'+67.48%', floor:'APE 9.31', holders: '5,432', items:'7,453', class1:'btnGreen', class2:'btnGreen', class:'rankp1'},
-            {image: '/images/Ellipse 277.png ' , num: '2',  name: 'Bored Ape Yacht #3149', volume: 'APE 9.31', h:'+111.48%', d:'+67.48%', floor:'APE 9.31', holders: '5,432', items:'7,453', class1:'btnGreen', class2:'btnGreen',class:'rankp'},
-            {image: '/images/Ellipse 277.png ' , num: '3',  name: 'Bored Ape Yacht #3149', volume: 'APE 9.31', h:'+111.48%', d:'+67.48%', floor:'APE 9.31', holders: '5,432', items:'7,453', class1:'btnRed', class2:'btnGreen',class:'rankp'},
-            {image: '/images/Ellipse 277.png ' , num: '4',  name: 'Bored Ape Yacht #3149', volume: 'APE 9.31', h:'+111.48%', d:'+67.48%', floor:'APE 9.31', holders: '5,432', items:'7,453', class1:'btnGreen', class2:'btnGreen',class:'rankp'},
-            {image: '/images/Ellipse 277.png ' , num: '5',  name: 'Bored Ape Yacht #3149', volume: 'APE 9.31', h:'+111.48%', d:'+67.48%', floor:'APE 9.31', holders: '5,432', items:'7,453', class1:'btnGreen', class2:'btnGreen',class:'rankp'},
-            {image: '/images/Ellipse 277.png ' , num: '99',  name: 'Bored Ape Yacht #3149', volume: 'APE 9.31', h:'+111.48%', d:'+67.48%', floor:'APE 9.31', holders: '5,432', items:'7,453', class1:'btnGreen', class2:'btnGreen',class:'rankp'},
-            {image: '/images/Ellipse 277.png ' , num: '100',  name: 'Bored Ape Yacht #3149', volume: 'APE 9.31', h:'+111.48%', d:'+67.48%', floor:'APE 9.31', holders: '5,432', items:'7,453', class1:'btnGreen', class2:'btnRed',class:'rankp'},
+            {image: '/images/Ellipse 277.png ' , num: '2',  name: 'Azuki #3149', volume: 'APE 9.31', h:'+111.48%', d:'+67.48%', floor:'APE 9.31', holders: '5,432', items:'7,453', class1:'btnGreen', class2:'btnGreen',class:'rankp1'},
+            {image: '/images/Ellipse 277.png ' , num: '3',  name: 'Azuki #3149', volume: 'APE 9.31', h:'+111.48%', d:'+67.48%', floor:'APE 9.31', holders: '5,432', items:'7,453', class1:'btnRed', class2:'btnGreen',class:'rankp1'},
+            {image: '/images/Ellipse 277.png ' , num: '4',  name: 'Azuki #3149', volume: 'APE 9.31', h:'+111.48%', d:'+67.48%', floor:'APE 9.31', holders: '5,432', items:'7,453', class1:'btnGreen', class2:'btnGreen',class:'rankp1'},
+            {image: '/images/Ellipse 277.png ' , num: '5',  name: 'Azuki #3149', volume: 'APE 9.31', h:'+111.48%', d:'+67.48%', floor:'APE 9.31', holders: '5,432', items:'7,453', class1:'btnGreen', class2:'btnGreen',class:'rankp1'},
+            {image: '/images/Ellipse 277.png ' , num: '99',  name: 'Azuki #3149', volume: 'APE 9.31', h:'+111.48%', d:'+67.48%', floor:'APE 9.31', holders: '5,432', items:'7,453', class1:'btnGreen', class2:'btnGreen',class:'rankp1'},
+            {image: '/images/Ellipse 277.png ' , num: '100',  name: 'Azuki #3149', volume: 'APE 9.31', h:'+111.48%', d:'+67.48%', floor:'APE 9.31', holders: '5,432', items:'7,453', class1:'btnGreen', class2:'btnRed',class:'rankp1'},
         ];
     
     export const cryptochickrank = [

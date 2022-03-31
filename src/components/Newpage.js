@@ -6,7 +6,8 @@ import cross from '../assets/cross.png'
 import bag from '../assets/bag.png'
 import {activity} from './data'
 import { Link } from 'react-router-dom'
-import Down from '../assets/downArrow.png'
+import Down from '../assets/arrow_down.png'
+import Up from '../assets/arrow_up.png'
 const Newpage = () => {
     const[more, setMore] = useState(false);
     return ( 
@@ -26,7 +27,8 @@ const Newpage = () => {
 
         <div className="activity_box">{
              activity.map(data=>(
-            <div className="activity_container">
+            <div className="activity_container" tabindex="0">
+
                 <img src={data.icon} alt="" />
                 <h4 id='res_sale'>{data.type}</h4>
                 <img src={data.image} alt="" className={data.class}/>
@@ -39,17 +41,16 @@ const Newpage = () => {
            <p id='mor'onClick={() => setMore(!more)} > More<img src={Down} alt="" /></p> 
            :
            <>
-           <p id='mor'onClick={() => setMore(!more)} > More<img src={Down} alt="" /></p> 
+           <p id='mor'onClick={() => setMore(!more)} > Less<img src={Up} alt="" /></p> 
            
            <div className="res_drop" onClick={() => setMore(!more)} >
              <div>
-         <p>0x60cC...1376 <br />
-From</p>
-<br />
-<br />
-<p>28 seconds ago
-  <br />
-Time</p>
+               <div className='newpage_responsive_div'>
+         <p>0x60cC...1376 <br />From</p>
+         <p id='newpage_br'>- <br />To</p>
+         </div>
+         <br /><br />
+         <p id='newpage_responsive_p'>28 seconds ago<br />Time</p>
          </div>
            </div>
         

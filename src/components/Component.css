@@ -1741,6 +1741,9 @@ padding: 0 !important;
     margin-left: 1rem;
     width: 7rem;
 }
+#mor_rank,#mor{
+    display: none;
+}
 @media (max-width:991px){
     main{
         overflow: hidden;
@@ -2550,6 +2553,7 @@ font-family: 'Rajdhani', sans-serif;
 }
 .activity_container p{
     font-size: 16px;
+    text-align: start;
 }
 .res_drop{
     position: relative;
@@ -2560,15 +2564,83 @@ font-family: 'Rajdhani', sans-serif;
     position: relative;
     left: -26rem;
     top: 5rem;
+    font-weight: bolder;
+    display: block;
 }
-.activity_container{
+.activity_container {
     height: 14rem;
     width: 20rem;
     display: -webkit-inline-box;
-
     margin-left: 0;
+}
+.activity_container:focus {
+height: 25rem;
 }
 .actp{
     display: none;
+}
+.newpage_responsive_div{
+    display: flex !important;
+    margin-left: -5rem;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+#newpage_responsive_p{
+    
+    margin-left: -5rem;
+}
+#newpage_br{
+    margin-left: 5rem;
+}
+.ranking_container{
+    height: 14rem;
+    width: 22rem;
+    margin-left: 0rem;
+    margin-top: 6rem;
+}
+.ranking_container:focus{
+    height: 32rem;
+}
+.rankp1{
+    top: 4rem;
+    left: -14rem;
+}
+#response_rank{
+    display: flex;
+}
+#responsive_rank_hide{
+    display: none;
+}
+#mor_rank{
+    display: block;
+    position: relative;
+    left: -21rem;
+    top: 9rem;
+    font-weight: bolder;
+}
+.newrank_responsive_div{
+    display: flex ;
+    margin-left: -1rem;
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+.newrank_responsive_div1{
+    display: flex ;
+    margin-left: -1rem;
+    margin-top: -1rem;
+    justify-content: space-between;
+}
+#rank_resp_p{
+    position: relative;
+    left: -7rem;
+    top: -1rem;
+}
+#rank_resp_span{
+    position: relative;
+    left: 6rem;
+}
+#rank_resp_holders{
+    position: relative ;
+    left: -3rem ;
 }
 }
