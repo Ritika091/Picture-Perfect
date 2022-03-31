@@ -2359,7 +2359,7 @@ font-family: 'Rajdhani', sans-serif;
     .cross{
         position: relative;
         top: 3rem;
-        left: -1rem;
+        left: -10rem;
     }
     .activities_btn{
         margin-left: -2rem;
@@ -2527,5 +2527,46 @@ font-family: 'Rajdhani', sans-serif;
     padding: 12rem 2rem;
     margin-bottom: -25rem;
     display: flex;
+}
+#res_sale{
+    position: relative;
+    bottom: -2rem;
+    left: -3.5rem;
+}
+.activity_container span{
+    position: relative;
+    top: 4rem;
+    left: -18rem;
+
+}
+.activity_container img{
+    padding-top: 3rem;
+    padding-left: 0.3rem;
+}
+.actimgsale{
+    padding-left: 0 !important;
+}
+.activity_container p{
+    font-size: 16px;
+}
+.res_drop{
+    position: relative;
+    left: -30rem;
+    top: 9rem;
+}
+#mor{
+    position: relative;
+    left: -26rem;
+    top: 5rem;
+}
+.activity_container{
+    height: 14rem;
+    width: 20rem;
+    display: -webkit-inline-box;
+
+    margin-left: 0;
+}
+.actp{
+    display: none;
 }
 }
