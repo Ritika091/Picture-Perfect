@@ -1,3 +1,5 @@
+import React, { useState } from 'react'
+
 import Sidearrow from '../assets/Arrow 1.png'
 
 import Chevron from '../assets/Chevron.png'
@@ -13,10 +15,13 @@ import {cryptochickrank} from './data'
 import Icon from '../assets/Ellipse 277 (1).png'
 import Verified from '../assets/verified.png'
 import Eye from '../assets/eye.png'
+import Down from '../assets/arrow_down.png'
+import Up from '../assets/arrow_up.png'
 
 
 
 const CryptoChickRanking = () => {
+    const[more, setMore] = useState(false);
     return ( 
         <main>
        
@@ -86,17 +91,17 @@ const CryptoChickRanking = () => {
             </div>
         </div>
 
-        <div className="activities" >
-            <h3>Activities &nbsp; &nbsp;&nbsp;</h3>
+        <div className="activities" id='crypto_responsive' >
+            <h3 id='crypto-responsive_h3'>Activities &nbsp; &nbsp;&nbsp;</h3>
             <h2>Offers &nbsp; &nbsp;&nbsp;</h2>
             <h2>Bids &nbsp; &nbsp;&nbsp;</h2>
-           <span><img src={Filter} alt=""  />&nbsp; &nbsp;&nbsp;</span> 
+           <span><img src={Filter} alt=""  id='crypto_responsive_img' />&nbsp; &nbsp;&nbsp;</span> 
         </div>
 
         
         <div className="activity_box" id='cryptobox' >{
              cryptochickrank.map(data=>(
-            <div className="activity_container">
+            <div className="activity_container" tabIndex="0">
                 <img src={data.icon} alt="" />
                 <h4>{data.type}</h4>
                 <img src={data.image} alt="" className={data.class}/>
@@ -105,7 +110,25 @@ const CryptoChickRanking = () => {
               <p className='actp'>{data.from} <br /> <br />From</p>
               <p className='actp'>- <br /> <br />To</p>
               <p className='actp'>{data.time} <br /> <br />Time</p>
-             
+              {more === false?
+           <p id='mor'onClick={() => setMore(!more)} > More<img src={Down} alt="" /></p> 
+           :
+           <>
+           <p id='mor'onClick={() => setMore(!more)} > Less<img src={Up} alt="" /></p> 
+           
+           <div className="res_drop" onClick={() => setMore(!more)} >
+             <div>
+               <div className='newpage_responsive_div'>
+         <p>0x60cC...1376 <br />From</p>
+         <p id='newpage_br'>- <br />To</p>
+         </div>
+         <br /><br />
+         <p id='newpage_responsive_p'>28 seconds ago<br />Time</p>
+         </div>
+           </div>
+        
+           </>
+              }
             </div>
              ))
 }
